@@ -31,8 +31,8 @@ int main(){
 				printf("Quantidade de refrigerante: ");
 				scanf("%i", &bebida);
 				
-				precoPrato = prato *45,50;
-				precoBebida = bebida*3,5;
+				precoPrato = prato *45.50;
+				precoBebida = bebida*3.5;
 				precoTotal = precoPrato+precoBebida;
 				
 				printf("\nO subtotal a se pagar pelos %i pratos solitados é R$ %.2f\n",prato,precoPrato);
