@@ -10,11 +10,12 @@
 
 int main(){
 	setlocale(LC_ALL,"");
-	int nota;
-	printf("Digite a nota(inteira): ");
-	scanf("%i", &nota);
-
-	switch(nota){
+	float nota;
+	int a;
+	printf("Digite a nota: ");
+	scanf("%f", &nota);
+	a = (int)nota;
+	switch(a){
 		case 1: case 2: case 3: case 4:
 			printf("Reprovado");
 			break;
@@ -24,6 +25,9 @@ int main(){
 		case 7: case 8: case 9: case 10:
 			printf("Aprovado");
 			break;			
+		default:
+            printf("Escolha inválida");
+            break;
 	}
 	return 0;
 }

@@ -25,6 +25,9 @@ int main(){
 		case 10:
 			printf("A");
 			break;	
+		default:
+            printf("Escolha inválida");
+            break;
 	}
 	return 0;
 } 

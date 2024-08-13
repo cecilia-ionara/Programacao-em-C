@@ -35,6 +35,9 @@ int main(){
 		case 7:
 			printf("Sábado");
 			break;
+		default:
+            printf("Escolha inválida");
+            break;	
 	}
 	return 0;
 }

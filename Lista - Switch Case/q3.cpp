@@ -32,6 +32,9 @@ int main(){
 		case 4:
 			printf("%i * %i = %i", n1, n2, n1*n2);
 			break;	
+		default:
+            printf("Escolha inválida");
+            break;
 	}
 	return 0;
 }
