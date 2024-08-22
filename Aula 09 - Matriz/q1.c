@@ -3,7 +3,7 @@
 int main()
 {
     setlocale(LC_ALL,"");
-    int i, j, k, matriz[3][3], valor, soma=0;
+    int i, j, matriz[3][3], soma=0;
     printf("Aula Matriz\n");
     // i = linha
     //j = coluna
