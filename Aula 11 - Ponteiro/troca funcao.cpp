@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//ponteiro substituiu o valor de n1 e n2
 void troca(int *a, int *b) {
     int c;
     c = *a;
