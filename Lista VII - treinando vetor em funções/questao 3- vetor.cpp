@@ -6,20 +6,20 @@
 
 #include<stdio.h>
 
-void multiplica(int vetor[], int tamanho, int c){
+void multiplica(int vetor[], int tamanho, int c) {
 	int novoVetor[5];
 	printf("Resultado da Multiplicacao: ");
-	for(int i=0; i<tamanho;i++){
+	for(int i=0; i<tamanho; i++) {
 		novoVetor[i] = vetor[i] * c;
 	}
-	for(int i=0;i<5;i++){
+	for(int i=0; i<5; i++) {
 		printf(" %i ", novoVetor[i]);
 	}
-} 
+}
 
-int main(){
+int main() {
 	int vetor[5], c;
-	for(int i=0;i<5;i++){
+	for(int i=0; i<5; i++) {
 		printf("Digite o numero %i: ", i+1);
 		scanf("%i", &vetor[i]);
 	}
