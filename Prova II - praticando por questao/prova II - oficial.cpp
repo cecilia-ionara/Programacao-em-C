@@ -6,7 +6,9 @@ Para imprimir a matriz crie uma outra função que receba e imprima a matriz. No p
 chame a função de impressão do vetor e, em seguida, chame a função de impressão da matriz.
 Leia a matriz de 4x4 inteiros.
 Peça ao usuário para escolher uma linha da matriz (de 0 a 3).
-Crie uma função que receba a matriz e a linha escolhida como parâmetros, copie essa linha para um vetor, e retorne o vetor.
+Crie uma função que receba a matriz e a linha escolhida como parâmetros, 
+copie essa linha para um vetor, e retorne o vetor.
+
 Imprima o vetor no programa principal.
 
 Desejo a todos, uma ótima prova!
@@ -66,9 +68,9 @@ int main() {
     vetor = vetorLinha(matriz, linha);
 
     // Imprime o vetor
-    printf("Os elementos contidos na linha %d são: ", linha);
+    printf("Os elementos contidos na linha %i são: ", linha);
     imprimeVetor(vetor);
-
+	printf("\n\n");
     // Imprime a matriz
     imprimeMatriz(matriz);
 
